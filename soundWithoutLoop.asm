@@ -16,7 +16,7 @@ local ext,iter
     mov cx,time
 ext:
     push cx
-;w cx jedna mks, te wartosc mo¿na zmienic w zaleznosci od wydajnosci procesora
+;w cx jedna mks, te wartosc moÂ¿na zmienic w zaleznosci od wydajnosci procesora
     mov cx,0FFFFh
 iter:
     loop iter
